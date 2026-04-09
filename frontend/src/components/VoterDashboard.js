@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* eslint-disable no-undef, react-hooks/exhaustive-deps */
 import { useState, useEffect, useCallback } from 'react';
 import { API_BASE } from '../App';
 import * as paillier from 'paillier-bigint';
