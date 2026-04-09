@@ -5,7 +5,7 @@
 import express from 'express';
 import cors from 'cors';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import * as paillier from 'paillier-bigint';
 
 const app = express();
